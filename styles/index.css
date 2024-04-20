@@ -5,6 +5,7 @@ body {
 }
 
 header {
+  margin-top: 2rem;
   display: flex;
   justify-content: center;
   font-family: 'Bebas Neue', sans-serif;

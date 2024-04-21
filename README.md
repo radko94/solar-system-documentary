@@ -1,7 +1,7 @@
-# Hi
-This is my course project for university subject called "Web programing" at BFU.
+# Hello
+This is my course project for university subject called "Web programming" at BFU.
 
-## Course project topic: Solar System Exploration
+## Course project topic: Solar System Documentary
 
 This project provides detailed information about the planets in our solar system.
 

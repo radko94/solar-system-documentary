@@ -9,6 +9,9 @@ header {
   display: flex;
   justify-content: center;
   font-family: 'Bebas Neue', sans-serif;
+  position: fixed;
+  width: inherit;
+  top: 0;
 }
 
 nav {
@@ -28,6 +31,11 @@ a {
   color: #3394f5;
   text-decoration: none;
   cursor: pointer;
+}
+
+p {
+  font-family: 'Dosis', sans-serif;
+  font-size: 1.2rem;
 }
 
 .solar-system {
@@ -82,6 +90,24 @@ a {
   display: block;
 }
 
+.space-article {
+  background-color: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.45);
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  margin: 3rem 0px;
+}
+
+.articles-content {
+  margin: 8.65rem 0;
+}
+
+.highlight {
+  font-weight: bolder;
+  font-family: 'Orbitron', sans-serif;
+}
+
 /* .orbitron-<uniquifier> {
   font-family: "Orbitron", sans-serif;
   font-optical-sizing: auto;
@@ -92,5 +118,12 @@ a {
 /* .bebas-neue-regular {
   font-family: "Bebas Neue", sans-serif;
   font-weight: 400;
+  font-style: normal;
+} */
+
+/* .dosis-<uniquifier> {
+  font-family: "Dosis", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
   font-style: normal;
 } */

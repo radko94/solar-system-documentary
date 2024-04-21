@@ -9,9 +9,6 @@ header {
   display: flex;
   justify-content: center;
   font-family: 'Bebas Neue', sans-serif;
-  position: fixed;
-  width: inherit;
-  top: 0;
 }
 
 nav {
@@ -50,7 +47,7 @@ p {
   z-index: 2;
   background-color: transparent;
   width: 60%;
-  color: white;
+  color: #333;
   position: inherit;
   margin: auto;
 }
@@ -91,7 +88,7 @@ p {
 }
 
 .space-article {
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.82);
   box-shadow: 0 0 15px rgba(255, 255, 255, 0.45);
   padding: 20px;
   border-radius: 10px;
@@ -100,7 +97,11 @@ p {
 }
 
 .articles-content {
-  margin: 8.65rem 0;
+  margin: 3.65rem 0;
+}
+
+.articles-content > h1 {
+  color: white;
 }
 
 .highlight {
